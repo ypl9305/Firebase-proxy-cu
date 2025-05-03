@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 // Aquí tu API KEY de Firebase (opcional si usas endpoints protegidos)
-const FIREBASE_API_KEY = 'TU_API_KEY_OPCIONAL';
+const FIREBASE_API_KEY = 'AIzaSyDHViEYKZr_GJbZUfjzglSgxmEeSctc_74';
 
 app.post('/proxy', async (req, res) => {
   try {
